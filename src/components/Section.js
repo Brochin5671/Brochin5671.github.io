@@ -29,7 +29,7 @@ export function Section({ children, title, content, subtitle, icons }) {
         </Box>
       )}
       <hr />
-      {children || (
+      {(children && <Box mx={1}>{children}</Box>) || (
         <Typography variant="body1" textAlign="left" my={2}>
           {content}
         </Typography>
