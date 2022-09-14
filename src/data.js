@@ -161,7 +161,88 @@ export const report2 = {
   ],
 };
 
+export const report3 = {
+  header: 'Co-op Work Term 3',
+  subtitle: 'TD Bank Group, MBNA',
+  images: [
+    {
+      href: 'https://www.td.com/',
+      src: '/td_logo.png',
+      name: 'TD Bank Logo',
+    },
+    {
+      href: 'https://www.mbna.ca/',
+      src: '/mbna_logo.jpg',
+      name: 'MBNA Logo',
+    },
+  ],
+  sections: [
+    {
+      title: 'Abstract/Introduction',
+      content:
+        'In the summer of 2022, I was given the opportunity to join TD as a Software Engineer Intern. I was placed within TD’s Platform and Technology team’s Credit Card Product Group, working on the MBNA online banking application for credit card servicing. I was able to partake in the agile scale methodology environment within my POD (Product Oriented Delivery) team. This report will go over the necessary information about the employer, my achieved goals, and the job description.',
+    },
+    {
+      title: 'Information About TD',
+      content:
+        'Toronto-Dominion Bank (TD), is a Canadian multinational banking and financial services corporation. TD offers its products and services to over 26 million people worldwide. The Credit Card Product Group is responsible for managing all servicing tools across all channels for credit cards to handle all of the customer’s day to day interactions with TD. MBNA is a division of TD and a leading provider of co-branded and affinity credit card programs in Canada. MBNA credit cards are associated with hundreds of Canadian membership organizations, credit union and financial institutions, sports associations, educational institutions and charities.',
+    },
+    {
+      title: 'Goals',
+      children: [
+        {
+          title: 'Breath & Depth of Understanding',
+          subtitle: 'Expand my insight of full-stack and backend development.',
+          icons: [
+            { name: 'Laptop Code', class: 'fas fa-laptop-code fa-5x' },
+            { name: 'Code Branch', class: 'fas fa-code-branch fa-5x' },
+          ],
+          content:
+            'I wanted to expand my knowledge of the stack used within my team to gain more insight on full-stack and backend development. This goal allowed me to explore the different technologies and frameworks within the stack as well as broadening my current understanding of what languages are being actively used. I began by understanding the underlying codebase of the application’s UI and the Java backend. This was followed by making contributions to tasks and code reviews. I was also able to consult the quality and performance of code. By the end of the term, I had a good general understanding of the underlying technologies that power the application my team works on. My code reviews were effective and I didn’t have to spend so much time on the syntax of a language due to that broadened understanding.',
+        },
+        {
+          title: 'Creativity',
+          subtitle:
+            'Become integrated within the large scale agile methodology environment.',
+          icons: [
+            { name: 'Handshake', class: 'fas fa-handshake fa-5x' },
+            { name: 'Industry', class: 'fas fa-industry fa-5x' },
+          ],
+          content:
+            'I wanted to become integrated and adaptive to the agile methodology environment used at my work. By being able to adapt to these kinds of environments within TD, it will help me become more integrated within this industry as a whole. To take action, I made sure to participate in all of the agile processes within my POD, including daily sprints, retrospectives and planning. I believe taking these steps helped in painting a bigger picture of how these environments work within the industry. I noticed progression in achieving this goal as I became more comfortable with the agile processes and was able to make progression with my tasks.',
+        },
+        {
+          title: 'Oral Communication',
+          subtitle: 'Enhance my ability at articulating thoughts.',
+          icons: [
+            { name: 'Comments', class: 'far fa-comments fa-5x' },
+            { name: 'Presentation', class: 'fas fa-microphone fa-5x' },
+          ],
+          content:
+            'I wanted to enhance my ability at articulating ideas and issues by observing and understanding how others articulate their thoughts. This was a very important goal because it allowed me to effectively communicate my thoughts and improve the quality of work that I submit. For starters, I participated in agile processes to also observe how other team members communicated their progress in tickets. I also practiced before sprints to make sure I could communicate my thoughts effectively during said meetings. Finally, I reached out to team members to assist with tickets and give insightful code reviews. My success in this goal was shown by my ability to articulate my thoughts into meaningful conversations that improved my quality of work. My communication with others allowed for less miscommunication or confusion that would have otherwise occurred due to ideas not being fully realized.',
+        },
+      ],
+    },
+    {
+      title: 'Job Description',
+      content:
+        'For my time as a Software Engineer Intern on the MBNA Online Banking team at TD, I worked on improving the Java backend’s performance and some full-stack tasks. I attended daily sprint meetings, sprint plannings, retrospectives and demos. I collaborated with my team members and my manager to clarify any issues that I had. I was able to gain insight on the underlying structure of the application through my conversations and code reviews with team members. I learnt about optimizing Java code to improve performance of the application’s services and consulted the quality of code. I participated in code reviews which helped me gain an understanding of what is good and bad code.',
+    },
+    {
+      title: 'Conclusions',
+      content:
+        'My time at TD was a big step for me learning-wise and had me thinking of new ways to improve myself as a developer. I learnt a lot about backend and some full-stack development. Collaborating with my team in agile processes and code reviews definitely improved my communication and adaptive skills. I was able to gain new insights of application development and the bigger picture of industry development since TD is a larger organization than previous ones that I worked at. A lot of these new insights and skills will be key to my growth as a developer and for new experiences.',
+    },
+    {
+      title: 'Acknowledgements',
+      content:
+        'I would like to thank the MBNA Online Banking team and my manager, Steven, for being supportive of me during this term and helping expand my skills to new areas. I would also like to thank TD for giving me this amazing opportunity.',
+    },
+  ],
+};
+
 export const reports = [
   { name: 'Work Term 1', content: report1 },
   { name: 'Work Term 2', content: report2 },
+  { name: 'Work Term 3', content: report3 },
 ];

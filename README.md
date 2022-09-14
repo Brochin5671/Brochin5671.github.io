@@ -2,7 +2,7 @@
 
 ## Reports
 
-- First two coop work term reports are available.
+- First three coop work term reports are available.
 
 ## Coming Soon
 
